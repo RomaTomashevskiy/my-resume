@@ -1,0 +1,219 @@
+body{
+    background-color: #E5E5E5; 
+    font-family: Montserrat , sans-serif;
+    font-style: Bold;
+}
+
+h1,h2,h3,h4,h5,
+p,
+span,
+div{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+    background-color: #ffffff;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 90px;
+    padding-right: 220px;
+    
+}
+
+ /* ================ about-me ============= */
+.about-me-section{
+    margin-bottom: 40px;
+}
+.about-me-title{
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%; 
+    margin-bottom: 20px;
+}
+
+
+.title-name{
+    font-size: 45px;
+    line-height: 55px;
+    line-height: 100%;
+    margin-bottom: 25px;
+}
+
+.about-me-text{
+    font-style: Regular; 
+    font-size: 14px; 
+    line-height: 24px; 
+    line-height: 141%;
+    color: #595959;
+}
+
+.main-content-title{
+    font-size: 22px;
+    line-height: 27px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 10px;
+}
+ 
+
+/*================ my-projects ========= */
+.my-projects-section{
+    margin-bottom: 50px;
+}
+
+.my-projects-text{
+    font-weight: normal;
+    margin-left: 13px;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 141%;
+    color: #595959;
+}
+
+.my-projects-list{
+    padding-left: 17px;
+}
+
+.my-projects-item{
+    font-weight: bold;
+}
+
+.my-project-link{
+    font-weight: normal;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 141%;
+    color: #595959;
+}
+
+
+.my-projects-bracket{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #000000;
+}
+
+/*  ===========  my-experience =========== */
+.my-experience-section{
+    margin-bottom: 50px;
+}
+.retreat{
+    margin-bottom: 15px;
+}
+.my-experience-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.my-experience-list{
+    padding-left: 17px;
+}
+
+.my-experience-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-experience-one{
+    margin-bottom: 25px;
+}
+
+.my-experience-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+
+/* ============= my-education ============== */
+
+.my-education-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fb6d3a;
+}
+
+.my-education-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-top: 10px;
+}
+
+.my-education-box:not(:last-child){
+    margin-bottom: 20px;
+}
+/* ==============  SIDE-BAR   =========== */
+
+
+
+.sideBar{
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.sideBar-title {
+    padding-left: 40px;
+    font-size: 22px;
+    line-height: 27px;
+    line-height: 100%;
+    color: #ffffff;
+}
+
+.sideBar-list {
+    padding-left: 55px;
+}
+
+.sideBar-item{
+    color:#FB6D3A;  
+}
+
+.contact-link{
+    color: #8E949C;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sideBar-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
