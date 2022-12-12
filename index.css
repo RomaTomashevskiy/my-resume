@@ -93,13 +93,16 @@ div{
     font-weight: bold;
 }
 
+.my-projects-item:not(:last-child){
+    margin-bottom: 5px;
+}
+
 .my-project-link{
-    font-weight: normal;
-    font-style: Regular;
-    font-size: 14px;
+    font-weight: 700;
+    font-size: 15px;
     line-height: 24px;
     line-height: 141%;
-    color: #595959;
+    color: #363636;
 }
 
 
@@ -109,6 +112,22 @@ div{
     font-size: 14px;
     line-height: 24px; 
     color: #000000;
+}
+
+
+.project-description{
+    margin-top: 2px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #646464;
+}
+
+.link-projects-code{
+    font-family: AvenirNextCyr, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #363636;
+    letter-spacing: 0;
 }
 
 /*  ===========  my-experience =========== */
@@ -179,7 +198,7 @@ div{
 .sideBar{
     background-color: #1E2939;
     width: 370px;
-    padding: 40px 0;
+    /* padding: 40px 0; */
 }
 
 .section {
